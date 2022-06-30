@@ -28,3 +28,18 @@
 3. Assign an elastic IP to your EC2 instance.
 4. Take snapshot of EBS attached to your EC2 instance then remove it from your instance. Then create another EBS using that snapshot and use this new EBS with your instance.
 
+
+## Day 4 ([PPT](https://docs.google.com/presentation/d/1oqB_DrUNPPWShOj9RyjANU12nAxGsaTrGLSKotkChmU/))
+### Topics Covered
+1. S3
+2. S3 Event Notifications
+3. S3 Presigned URLs
+4. S3 Lifecycle
+
+### Assignments
+1. Create S3 bucket with version control.
+2. Add objects to S3 bucket
+3. Create Lifecycle policy of objects.
+4. Create Event Notifications for object.
+5. Create Event for new images upload, resize them and decolorize them and store them in a new prefix in s3.
+
